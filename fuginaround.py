@@ -24,23 +24,53 @@
 # squareArea = areaSquare(usr)
 # print(f"The area of the square is {squareArea}")
 
+#
+# def ohmslawV(ohm,I):
+#     v = ohm * I
+#     return v
+# current = float(input("what is the current? "))
+# resistance = float(input("what is the resistance? "))
+#
+# voltage =  ohmslawV(resistance,current)
+# print(f"The voltage is {voltage:.2f}")
+#
+#
+# def ohmslawR(v,I):
+#     R = v/I
+#     return R
+# voltage = float(input(f"what is the voltage? "))
+# current = float(input(f"what is the current? "))
+#
+# resistance = ohmslawR(voltage,current)
+# print(f"The resistors value is {resistance:.2f}")
+#
 
-def ohmslawV(ohm,I):
-    v = ohm * I
-    return v
-current = float(input("what is the current? "))
-resistance = float(input("what is the resistance? "))
 
-voltage =  ohmslawV(resistance,current)
-print(f"The voltage is {voltage:.2f}")
+# x = float(input(f"what is your grade "))
+# if x > 100 or x < 0:
+#     input("That is not a valid grade, input your real grade ")
+# if x >= 89.5:
+#     print(f"your grade is an A")
+# elif x >= 79.5:
+#     print(f"your grade is a B")
+# elif x > 69.5:
+#     print(f"your grade is a C")
+# else:
+#     print(f"Not good")
 
 
-def ohmslawR(v,I):
-    R = v/I
-    return R
-voltage = float(input(f"what is the voltage? "))
-current = float(input(f"what is the current? "))
+boomMeter = int(input(f"How many BOOMS does the DOUBLE CHUNK CHOCOLATE COOOKIE get on the BOOM meter? "))
 
-resistance = ohmslawR(voltage,current)
-print(f"The resistors value is {resistance:.2f}")
-
+match boomMeter:
+    case 0:
+        print(f"DOOOOOOOOOM")
+    case 1:
+        print(f"BOOM")
+    case 2:
+        print((f"BOOOOM, BOOOOM"))
+    case 3:
+        print(f"BOOOM, BOOOOM, BOOOOOOOOOOOM")
+    case 4 :
+        print(f"BOOOM, BOOOOM, BOOOOOM, BOOOOOOOOOOOOOOM")
+    case 5:
+        print(f"FIVE BIIIIG BOOOMS! BOOOOOOOOOOOM, BOOOOOOOOOOOOOOM, BOOOOOOOOOOOM, BOOOOOOOOOOM, BOOOOOOOOOOOOOOOOOOOOOOOM!!!!")
