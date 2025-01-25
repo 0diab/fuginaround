@@ -152,8 +152,35 @@
 #     print(f"your number is within 100 of 1000")
 # elif noomb > 1899 and noomb <2101:
 #     print(f"your numer is within 100 of 2000")
+# else
+#     print(f"your number is not within 100 of both 1000 and 2000")
+
+# https://www.w3resource.com/python-exercises/python-basic-exercises.php1
+
+
+
+# Write a Python program to calculate the sum of three given numbers. If the values are equal, return three times their sum.
+# input1 = int(input("random number 1: "))
+# input2 = int(input("random number 2: "))
+# input3 = int(input("random number 3: "))
+#
+#
+# if input1 == input2 == input3:
+#     print(3*(input1+input2+input3))
+# else:
+#     print(input1+input2+input3)
 #
 
 
+# Write a Python program to get a newly-generated string from a given string where "Is" has been added to the front.
+# Return the string unchanged if the given string already begins with "Is".
 
-# https://www.w3resource.com/python-exercises/python-basic-exercises.php
+question = input(f"what is your question?")
+phrase = "Is"
+position = 0
+
+if question.find(phrase,position) == position:
+    print(f"{question}")
+else:
+    print(f"Is {question}")
+
