@@ -59,18 +59,46 @@
 #     print(f"Not good")
 
 
-boomMeter = int(input(f"How many BOOMS does the DOUBLE CHUNK CHOCOLATE COOOKIE get on the BOOM meter? "))
+# boomMeter = int(input(f"How many BOOMS does the DOUBLE CHUNK CHOCOLATE COOOKIE get on the BOOM meter? "))
+# match boomMeter:
+#     case 0:
+#         print(f"DOOOOOOOOOM")
+#     case 1:
+#         print(f"BOOM")
+#     case 2:
+#         print((f"BOOOOM, BOOOOM"))
+#     case 3:
+#         print(f"BOOOM, BOOOOM, BOOOOOOOOOOOM")
+#     case 4 :
+#         print(f"BOOOM, BOOOOM, BOOOOOM, BOOOOOOOOOOOOOOM")
+#     case 5:
+#         print(f"FIVE BIIIIG BOOOMS! BOOOOOOOOOOOM, BOOOOOOOOOOOOOOM, BOOOOOOOOOOOM, BOOOOOOOOOOM, BOOOOOOOOOOOOOOOOOOOOOOOM!!!!")
+#     case _:
+#         print(f"DOOOOOOOOOOM")
 
-match boomMeter:
-    case 0:
-        print(f"DOOOOOOOOOM")
-    case 1:
-        print(f"BOOM")
-    case 2:
-        print((f"BOOOOM, BOOOOM"))
-    case 3:
-        print(f"BOOOM, BOOOOM, BOOOOOOOOOOOM")
-    case 4 :
-        print(f"BOOOM, BOOOOM, BOOOOOM, BOOOOOOOOOOOOOOM")
-    case 5:
-        print(f"FIVE BIIIIG BOOOMS! BOOOOOOOOOOOM, BOOOOOOOOOOOOOOM, BOOOOOOOOOOOM, BOOOOOOOOOOM, BOOOOOOOOOOOOOOOOOOOOOOOM!!!!")
+
+
+# r = float(input(f"what is the radius of your circle?"))
+# def area(raidus):
+#     areaC = 3.14*raidus*raidus
+#     print(f"The area of your circle is {areaC:0.2f}")
+#     return areaC
+#
+# area(r)
+#
+# firstName = input("What is your first name? ")
+# lastName = input("What is your last name?")
+#
+# def reverse(a,b):
+#     switch = print(f"{b} {a}")
+#     return switch
+# reverse(firstName,lastName)
+#
+# colors = ["red", "blue" , "green", "black"]
+# print(f"{colors[0]}, {colors[-1]}")
+
+# examDate = input("what date is your exam? ")
+# vv = str(examDate).split("/")
+# day , month , year = (vv[0]),(vv[1]),(vv[2])
+# print(f"exam is on {day}/{month}/{year}")
+# https://www.w3resource.com/python-exercises/python-basic-exercises.php
