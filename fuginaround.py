@@ -86,6 +86,9 @@
 #
 # area(r)
 #
+
+
+# Write a Python program that accepts the user's first and last name and prints them in reverse order with a space between them.
 # firstName = input("What is your first name? ")
 # lastName = input("What is your last name?")
 #
@@ -101,4 +104,56 @@
 # vv = str(examDate).split("/")
 # day , month , year = (vv[0]),(vv[1]),(vv[2])
 # print(f"exam is on {day}/{month}/{year}")
+
+
+# Write a Python program that accepts an integer (n) and computes the value of n+nn+nnn.
+# Sample value of n is 5
+# Expected Result : 615
+# num = int(input("choose a random number: "))
+#
+# def convert(input1):
+#     new1 = f"{input1}"
+#     new2 = f"{input1}{input1}"
+#     new3 = f"{input1}{input1}{input1}"
+#     sum1 = int(new1)+int(new2)+int(new3)
+#     print(f"{sum1}")
+#     return sum1
+#
+# convert(num)
+
+# Write a Python program to get the volume of a sphere with radius six.
+# from math import pi
+#
+# def SphereV(r):
+#     # pie = 3.14
+#     volume = (4/3)*pi*r**3
+#     print(f"the volume of your sphere is {volume:.2f}")
+#     return volume
+# raidus = float(input(f"what is the radius of your sphere?\n"))
+# SphereV(raidus)
+
+# Write a Python program to calculate the difference between a given number and 17. If the number is greater than 17, return twice the absolute difference.
+
+# def diff(input):
+#     n = input - 17
+#     if n > 17:
+#         n1 = n*2
+#         print(f"{n1}")
+#     return n
+#
+# nomber = int(input("nomber pls: "))
+# diff(nomber)
+
+
+
+# Write a Python program to test whether a number is within 100 of 1000 or 2000.
+# noomb = int(input("typer a number"))
+# if noomb > 899 and noomb < 1101:
+#     print(f"your number is within 100 of 1000")
+# elif noomb > 1899 and noomb <2101:
+#     print(f"your numer is within 100 of 2000")
+#
+
+
+
 # https://www.w3resource.com/python-exercises/python-basic-exercises.php
