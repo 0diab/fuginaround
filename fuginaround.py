@@ -16,6 +16,17 @@
 # print(f"{mins} minutes {int(x * 60)} seconds")
 
 
+# for i in range(int(x)):
+#     x -= 1
+#     mins += 1
+# print(f"{mins} minutes {int(x * 60)} seconds")
+
+
+# usr = int(input("what is the length of one side? "))
+# def areaSquare(square):
+#     area = square * square
+#     return area
+#
 # usr = int(input("what is the length of one side? "))
 # def areaSquare(square):
 #     area = square * square
@@ -169,18 +180,28 @@
 #     print(3*(input1+input2+input3))
 # else:
 #     print(input1+input2+input3)
-#
+
 
 
 # Write a Python program to get a newly-generated string from a given string where "Is" has been added to the front.
 # Return the string unchanged if the given string already begins with "Is".
 
-question = input(f"what is your question?")
-phrase = "Is"
-position = 0
+# question = input(f"what is your question?")
+# phrase = "Is"
+# position = 0
+#
+# if question.find(phrase,position) == position:
+#     print(f"{question}")
+# else:
+#     print(f"Is {question}")
 
-if question.find(phrase,position) == position:
-    print(f"{question}")
-else:
-    print(f"Is {question}")
 
+# Write a Python program that determines whether a given number (accepted from the user) is even or odd, and prints an appropriate message to the user.
+# x = float(input("nomber: "))
+# div = x/2
+# y = div % 1
+#
+# if y > 0:
+#     print("odd")
+# else:
+#     print("even")
