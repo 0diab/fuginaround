@@ -207,4 +207,3 @@
 #     print("even")
 
 
-print(f"gello worl")
