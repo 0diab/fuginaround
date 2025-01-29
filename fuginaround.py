@@ -70,22 +70,22 @@
 #     print(f"Not good")
 
 
-# boomMeter = int(input(f"How many BOOMS does the DOUBLE CHUNK CHOCOLATE COOOKIE get on the BOOM meter? "))
-# match boomMeter:
-#     case 0:
-#         print(f"DOOOOOOOOOM")
-#     case 1:
-#         print(f"BOOM")
-#     case 2:
-#         print((f"BOOOOM, BOOOOM"))
-#     case 3:
-#         print(f"BOOOM, BOOOOM, BOOOOOOOOOOOM")
-#     case 4 :
-#         print(f"BOOOM, BOOOOM, BOOOOOM, BOOOOOOOOOOOOOOM")
-#     case 5:
-#         print(f"FIVE BIIIIG BOOOMS! BOOOOOOOOOOOM, BOOOOOOOOOOOOOOM, BOOOOOOOOOOOM, BOOOOOOOOOOM, BOOOOOOOOOOOOOOOOOOOOOOOM!!!!")
-#     case _:
-#         print(f"DOOOOOOOOOOM")
+boomMeter = int(input(f"How many BOOMS does the DOUBLE CHUNK CHOCOLATE COOOKIE get on the BOOM meter? "))
+match boomMeter:
+    case 0:
+        print(f"DOOOOOOOOOM")
+    case 1:
+        print(f"BOOM")
+    case 2:
+        print((f"BOOOOM, BOOOOM"))
+    case 3:
+        print(f"BOOOM, BOOOOM, BOOOOOOOOOOOM")
+    case 4 :
+        print(f"BOOOM, BOOOOM, BOOOOOM, BOOOOOOOOOOOOOOM")
+    case 5:
+        print(f"FIVE BIIIIG BOOOMS! BOOOOOOOOOOOM, BOOOOOOOOOOOOOOM, BOOOOOOOOOOOM, BOOOOOOOOOOM, BOOOOOOOOOOOOOOOOOOOOOOOM!!!!")
+    case _:
+        print(f"DOOOOOOOOOOM")
 
 
 
