@@ -214,4 +214,13 @@
 # # else:
 # #     print("your letter is not a vowel :(")
 
+# for num in range(11,55,2):
+#     if num != 0:
+#         print(num)
 
+
+mult = int(input("enter a number:"))
+
+for multiplication in range (-2,11):
+    result = mult * multiplication
+    print(result)
