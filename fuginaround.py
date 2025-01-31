@@ -69,23 +69,23 @@
 # else:
 #     print(f"Not good")
 
-
-boomMeter = int(input(f"How many BOOMS does the DOUBLE CHUNK CHOCOLATE COOOKIE get on the BOOM meter? "))
-match boomMeter:
-    case 0:
-        print(f"DOOOOOOOOOM")
-    case 1:
-        print(f"BOOM")
-    case 2:
-        print((f"BOOOOM, BOOOOM"))
-    case 3:
-        print(f"BOOOM, BOOOOM, BOOOOOOOOOOOM")
-    case 4 :
-        print(f"BOOOM, BOOOOM, BOOOOOM, BOOOOOOOOOOOOOOM")
-    case 5:
-        print(f"FIVE BIIIIG BOOOMS! BOOOOOOOOOOOM, BOOOOOOOOOOOOOOM, BOOOOOOOOOOOM, BOOOOOOOOOOM, BOOOOOOOOOOOOOOOOOOOOOOOM!!!!")
-    case _:
-        print(f"DOOOOOOOOOOM")
+#
+# boomMeter = int(input(f"How many BOOMS does the DOUBLE CHUNK CHOCOLATE COOOKIE get on the BOOM meter? "))
+# match boomMeter:
+#     case 0:
+#         print(f"DOOOOOOOOOM")
+#     case 1:
+#         print(f"BOOM")
+#     case 2:
+#         print((f"BOOOOM, BOOOOM"))
+#     case 3:
+#         print(f"BOOOM, BOOOOM, BOOOOOOOOOOOM")
+#     case 4 :
+#         print(f"BOOOM, BOOOOM, BOOOOOM, BOOOOOOOOOOOOOOM")
+#     case 5:
+#         print(f"FIVE BIIIIG BOOOMS! BOOOOOOOOOOOM, BOOOOOOOOOOOOOOM, BOOOOOOOOOOOM, BOOOOOOOOOOM, BOOOOOOOOOOOOOOOOOOOOOOOM!!!!")
+#     case _:
+#         print(f"DOOOOOOOOOOM")
 
 
 
@@ -198,12 +198,20 @@ match boomMeter:
 
 # Write a Python program that determines whether a given number (accepted from the user) is even or odd, and prints an appropriate message to the user.
 # x = float(input("nomber: "))
-# div = x/2
-# y = div % 1
+# y = x % 2
 #
 # if y > 0:
 #     print("odd")
 # else:
 #     print("even")
+
+
+# alphabet = input("Enter a letter: ")
+# #
+# # if alphabet == "a" or alphabet == "e" or alphabet == "i" or alphabet == "o" or alphabet == "u":
+# # # if alphabet == "aeiou":
+# #     print("your letter is a vowel")
+# # else:
+# #     print("your letter is not a vowel :(")
 
 
