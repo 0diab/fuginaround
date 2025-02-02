@@ -219,8 +219,17 @@
 #         print(num)
 
 
-mult = int(input("enter a number:"))
+# mult = int(input("enter a number:"))
+#
+# for multiplication in range (-2,11):
+#     result = mult * multiplication
+#     print(result)
 
-for multiplication in range (-2,11):
-    result = mult * multiplication
-    print(result)
+result = 1 % 2
+
+if result == 0:
+
+    print("TRUE")
+
+else:
+    print("FALSE")
