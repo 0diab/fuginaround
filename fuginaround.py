@@ -225,11 +225,23 @@
 #     result = mult * multiplication
 #     print(result)
 
-result = 1 % 2
+# result = 1 % 2
+#
+# if result == 0:
+#
+#     print("TRUE")
+#
+# else:
+#     print("FALSE")
 
-if result == 0:
 
-    print("TRUE")
+# Create a program that allows the user to guess a secret number between 1 and 100. The program should keep prompting the user until they guess the correct number.
+import random
+secretNum = random.randint(1,100)
+print(secretNum)
 
-else:
-    print("FALSE")
+guess = int(input("Guess a number between 1 and 100: "))
+
+while guess != secretNum:
+    print("Wrong number :(")
+    int(input("guess again: "))
