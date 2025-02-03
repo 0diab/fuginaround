@@ -236,12 +236,19 @@
 
 
 # Create a program that allows the user to guess a secret number between 1 and 100. The program should keep prompting the user until they guess the correct number.
-import random
-secretNum = random.randint(1,100)
-print(secretNum)
+# from random import randint
+# secretNum = randint(1,100)
+# print(secretNum)
+#
+# guess = int(input("Guess a number between 1 and 100: "))
+#
+# while guess != secretNum:
+#     print("Wrong number :(")
+#     guess = int(input("guess again: "))
+#
+# print("you guessed correctly :)")
 
-guess = int(input("Guess a number between 1 and 100: "))
-
-while guess != secretNum:
-    print("Wrong number :(")
-    int(input("guess again: "))
+# for row in range (1,11):
+#     for col in range (row):
+#         print("* ", end="")
+#     print()
