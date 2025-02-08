@@ -252,3 +252,13 @@
 #     for col in range (row):
 #         print("* ", end="")
 #     print()
+
+
+# n = True
+# for number in range(1,4,n):
+#     dot = "."*(number)
+#     print(f"attempt {number}, {dot} ")
+#     if n:
+#         print("success")
+
+
